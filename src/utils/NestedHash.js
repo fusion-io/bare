@@ -23,7 +23,9 @@ export default class NestedHash {
     }
 
     merge(other) {
-        return lodash.merge(this.hashed, other);
+        this.hashed = lodash.merge(this.hashed, other);
+
+        return this;
     }
 
     toJS() {
