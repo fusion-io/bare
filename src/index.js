@@ -74,7 +74,7 @@ export const Router     = "Contracts.Router";
 
 export const Serializer = "Contracts.Serializer";
 
-export const Sesssion   = "Contracts.Session";
+export const Session   = "Contracts.Session";
 
 export const Validator  = "Contracts.Validator";
 
